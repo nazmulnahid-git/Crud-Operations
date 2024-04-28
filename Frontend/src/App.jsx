@@ -1,15 +1,14 @@
 import React from 'react';
-import AllData from './AllData'
 import Form from './Form'
-import './Style.css'
+import './Form.css'
 import Home from './Home';
 
 function App () {
   
   return (
     <div>
-      <Home/>
-      {/* <Form/> */}
+      {/* <Home/> */}
+      <Form/>
     </div>
   );
 }
